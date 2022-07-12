@@ -25,7 +25,7 @@ namespace Palindromes
     }
 
     public static bool isPalindrome(string word) {
-      return word == Words.Backwards(word);
+      return word.ToLower() == Words.Backwards(word).ToLower();
     }
   }
 }

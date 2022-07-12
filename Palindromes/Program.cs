@@ -27,18 +27,20 @@ namespace Palindromes {
       Console.Write(".");
       Thread.Sleep(300);
       Console.Write("In the blue shirt.");
-      Thread.Sleep(900);
+      Thread.Sleep(800);
       Console.Write(" What is your word");
       Console.WriteLine("");
       string palindrome = Console.ReadLine();
       if (Words.isPalindrome(palindrome)) {
         Console.WriteLine("YES! We have a winner!");
-        Console.Write("The word " + palindrome + " is a palindrome");
+        Console.Write("The word " + palindrome.ToLower() + " is a palindrome");
       } 
       else {
         Console.WriteLine("OHH...");
         Thread.Sleep(600);
-        Console.Write("Not Quite...")
+        Console.Write("Not Quite... ");
+        Thread.Sleep(600);
+        Console.Write(palindrome + " is not a palindrome");
       }
     }
   }
