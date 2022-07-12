@@ -19,5 +19,19 @@ namespace Palindromes.Tests
       string myWord = "racecar";
       Assert.AreEqual(true, Words.isPalindrome(myWord));
     }
+
+    [TestMethod]
+    public void isPalindrome_WillIgnoreCase_True()
+    {
+      string myWord = "RaCecAr";
+      Assert.AreEqual(true, Words.isPalindrome(myWord));
+    }
+
+    [TestMethod]
+    public void isPalindrome_ReturnIfNotPalindrome_False()
+    {
+      string myWord = "bear";
+      Assert.AreEqual(false, Words.isPalindrome(myWord));
+    }
   }
 }
