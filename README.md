@@ -1,19 +1,14 @@
-# {C# Application Name}
+# Is It A Palindrome?
 
-#### By _**Zac Waggoner**_  
+#### By _**Zac Waggoner, Tyler Emmerson, Liang ZhiBin**_  
 
-#### _{Brief description of application}_  
+#### _"Step right up and test your noggin. Do you think YOU can come up with a palindrome? Give me a palindrome and win a fabulous prize, but give me a wrong answer and you're out of luck!"_  
 
 ---
 ## Technologies Used
 
 * _C#_
 * _.NET_
-
----
-## Description
-
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
 
 ---
 ## Setup/Installation Requirements
